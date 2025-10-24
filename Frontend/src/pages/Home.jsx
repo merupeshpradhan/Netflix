@@ -1,13 +1,13 @@
 import { useRef, useState } from "react";
 import { FaChevronRight } from "react-icons/fa";
-import { ALL_IMAGES } from "../utils/images";
+import { HORIZONTAL_SCROLL_IMAGES } from "../utils/horizontalScrollIData";
 
 function Home() {
   const [scrollPostion, setScrollPostion] = useState(0);
 
   const containerRef = useRef();
   return (
-    <div className="w-full">
+    <div className="w-full flex flex-col">
       <div className="first">
         <div className="relative w-full">
           <div className="netflix-background-img">
@@ -56,29 +56,23 @@ function Home() {
               </button>
             </div>
           </div>
-          <div className="absolute w-full">
-            <div className="w-full border-5 border-red-600 "></div>
+          <div className="w-full">
+            <div className="absolute w-full border-5 border-red-600 z-50"></div>
           </div>
         </div>
       </div>
-      <div className="second w-full h-[50vh] px-13 mt-5">
-        <div className="container flex justify-center items-center gap-2">
-          <button className="border w-[92px] h-[35px] rounded-lg">
-            Left button
-          </button>
-          <div ref={containerRef} className="w-[900px]">
-            <div className="content-box flex gap-5">
-              {ALL_IMAGES.map((item) => (
-                <div className="card bg-neutral-500 h-[20vh] w-[10vw]">
-                  <p>{item.alt}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <button className="border w-[102px] h-[35px] rounded-lg">
-            Right button
-          </button>
+      <div className="relative flex items-center mt-9">
+        <div
+          id="slider"
+          className="w-full h-full overflow-x-scroll scroll-smooth whitespace-nowrap"
+        >
+          {HORIZONTAL_SCROLL_IMAGES.map((item) => (
+            <img
+              className="w-[220px] inline-block p-4 hover:scale-105 ease-in-out duration-300 cursor-pointer"
+              src={item.img}
+              alt={item.alt}
+            />
+          ))}
         </div>
       </div>
     </div>
