@@ -1,14 +1,17 @@
-import Side1 from "./home/Side1";
-import Side2 from "./home/Side2";
-import Side3 from "./home/Side3";
+import Side1 from "./home/HeroSection";
+import Side2 from "./home/FeaturesSection";
+import Side3 from "./home/MoreReasonsSection";
+import HeroSection from "./home/HeroSection";
+import FeaturesSection from "./home/FeaturesSection";
+import MoreReasonsSection from "./home/MoreReasonsSection";
 
 function Home() {
   return (
     <div className="w-full flex flex-col">
-      <Side1 />
+      <HeroSection />
       <div className="w-full">
-        <Side2 />
-        <Side3 />
+        <FeaturesSection />
+        <MoreReasonsSection />
       </div>
     </div>
   );

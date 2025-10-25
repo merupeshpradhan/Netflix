@@ -1,7 +1,7 @@
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 import { HORIZONTAL_SCROLL_IMAGES } from "../../utils/horizontalScrollIData";
 
-function Side2() {
+function FeaturesSection() {
   const sliderLeft = () => {
     var slider = document.getElementById("slider");
     slider.scrollLeft = slider.scrollLeft - 1500;
@@ -40,4 +40,4 @@ function Side2() {
   );
 }
 
-export default Side2;
+export default FeaturesSection;

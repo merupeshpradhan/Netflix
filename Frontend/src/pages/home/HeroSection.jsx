@@ -1,7 +1,7 @@
 import React from "react";
 import { FaChevronRight } from "react-icons/fa";
 
-function Side1() {
+function HeroSection() {
   return (
     <div>
       <div className="first">
@@ -61,4 +61,4 @@ function Side1() {
   );
 }
 
-export default Side1;
+export default HeroSection;
