@@ -1,10 +1,8 @@
-import Side1 from "./home/HeroSection";
-import Side2 from "./home/FeaturesSection";
-import Side3 from "./home/MoreReasonsSection";
 import HeroSection from "./home/HeroSection";
 import FeaturesSection from "./home/FeaturesSection";
 import MoreReasonsSection from "./home/MoreReasonsSection";
 import FAQSection from "./home/FAQSection";
+import FooterSignup from "./home/FooterSignup";
 
 function Home() {
   return (
@@ -14,6 +12,7 @@ function Home() {
         <FeaturesSection />
         <MoreReasonsSection />
         <FAQSection />
+        <FooterSignup />
       </div>
     </div>
   );
