@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { data } from "../../utils/FAQSectionData";
-import { FaPlus, FaMinus } from "react-icons/fa";
+import { MdClear } from "react-icons/md";
+import { GoPlus } from "react-icons/go";
 
 function FAQSection() {
   const [seletecd, setSelected] = useState(null);
@@ -21,7 +22,7 @@ function FAQSection() {
           >
             <div className="flex justify-between items-center p-6 w-full  bg-amber-700 text-white tracking-wide">
               <h2 className="text-xl">{dataItem.question}</h2>
-              <span>{seletecd === dataItem.id ? <FaMinus /> : <FaPlus />}</span>
+              <span>{seletecd === dataItem.id ? <MdClear size={32}/> : <GoPlus size={32}/>}</span>
             </div>
             <div
               className={`overflow-hidden bg-amber-600 text-white text-[20px] px-6 mt-1 transition-all duration-300 ease-in-out ${
