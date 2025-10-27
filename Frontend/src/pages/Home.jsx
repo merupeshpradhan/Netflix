@@ -3,6 +3,7 @@ import FeaturesSection from "./home/FeaturesSection";
 import MoreReasonsSection from "./home/MoreReasonsSection";
 import FAQSection from "./home/FAQSection";
 import FooterSignup from "./home/FooterSignup";
+import FooterDataLayout from "./home/FooterDataLayout";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
         <MoreReasonsSection />
         <FAQSection />
         <FooterSignup />
+        <FooterDataLayout />
       </div>
     </div>
   );
