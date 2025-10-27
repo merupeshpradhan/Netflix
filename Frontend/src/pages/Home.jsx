@@ -4,6 +4,7 @@ import Side3 from "./home/MoreReasonsSection";
 import HeroSection from "./home/HeroSection";
 import FeaturesSection from "./home/FeaturesSection";
 import MoreReasonsSection from "./home/MoreReasonsSection";
+import FAQSection from "./home/FAQSection";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <div className="w-full">
         <FeaturesSection />
         <MoreReasonsSection />
+        <FAQSection />
       </div>
     </div>
   );
