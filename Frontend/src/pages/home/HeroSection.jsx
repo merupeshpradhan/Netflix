@@ -1,5 +1,6 @@
 import React from "react";
 import { FaChevronRight } from "react-icons/fa";
+import RoundedBorderSection from "./RoundedBorderSection";
 
 function HeroSection() {
   return (
@@ -28,7 +29,7 @@ function HeroSection() {
               </button>
             </div>
           </div>
-          <div className="absolute inset-0 flex items-center justify-center flex-col text-white gap-5">
+          <div className="absolute inset-0 flex items-center justify-end flex-col text-white gap-5">
             <h1 className="text-6xl font-bold text-center w-[40%]">
               Unlimited movies, TV shows and more
             </h1>
@@ -51,9 +52,8 @@ function HeroSection() {
                 <FaChevronRight size={18} />
               </button>
             </div>
-          </div>
-          <div className="w-full">
-            <div className="absolute w-full border-5 border-red-600 z-50"></div>
+
+            <RoundedBorderSection />
           </div>
         </div>
       </div>

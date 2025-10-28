@@ -9,8 +9,7 @@ import RoundedBorderSection from "./home/RoundedBorderSection";
 function Home() {
   return (
     <div className="w-full flex flex-col">
-      {/* <HeroSection /> */}
-      <RoundedBorderSection />
+      <HeroSection />
       {/* <div className="w-full">
         <FeaturesSection />
         <MoreReasonsSection />
