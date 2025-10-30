@@ -10,13 +10,13 @@ function Home() {
   return (
     <div className="w-full flex flex-col">
       <HeroSection />
-      {/* <div className="w-full">
+      <div className="w-full">
         <FeaturesSection />
         <MoreReasonsSection />
         <FAQSection />
         <FooterSignup />
         <FooterDataLayout />
-      </div> */}
+      </div>
     </div>
   );
 }

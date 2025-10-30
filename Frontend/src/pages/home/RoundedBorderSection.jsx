@@ -2,7 +2,7 @@ import React from "react";
 
 function RoundedBorderSection() {
   return (
-    <div className="relative w-full h-[30vh] overflow-hidden flex items-center justify-center">
+    <div className="relative w-full h-[30vh] overflow-hidden flex items-center justify-center mt-10">
       <div
         className="absolute w-[130%] h-[120px] left-[-15%] bottom-0 rounded-tl-[50%_100%] rounded-tr-[50%_100%] p-1"
         style={{
