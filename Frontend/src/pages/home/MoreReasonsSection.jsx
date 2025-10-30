@@ -6,7 +6,7 @@ import { CiFaceSmile } from "react-icons/ci";
 function MoreReasonsSection() {
   return (
     <div className="w-full h-[50vh] px-27">
-      <h3 className="pl-4 py-3 text-xl font-semibold">More reasons to join</h3>
+      <h3 className="pl-4 py-3 text-2xl text-white font-semibold">More reasons to join</h3>
       <div className="more-resons-all-table flex gap-5 px-3">
         <div className="w-full bg-rose-900/65 px-3 py-4 rounded-lg flex flex-col justify-between">
           <div className="w-[15vw] flex flex-col gap-3">

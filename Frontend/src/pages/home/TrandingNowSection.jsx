@@ -1,7 +1,7 @@
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 import { HORIZONTAL_SCROLL_IMAGES } from "../../utils/horizontalScrollIData";
 
-function FeaturesSection() {
+function TrandingNowSection() {
   const sliderLeft = () => {
     var slider = document.getElementById("slider");
     slider.scrollLeft = slider.scrollLeft - 1500;
@@ -13,8 +13,10 @@ function FeaturesSection() {
   };
 
   return (
-    <div className="mt-9 w-full h-[50vh] px-27">
-      <h3 className="pl-4 py-3 text-xl font-semibold">Trending now</h3>
+    <div className="relative w-full h-[50vh] px-27 z-20 -mt-10">
+      <h3 className="pl-4 py-3 text-2xl font-semibold text-white">
+        Trending now
+      </h3>
       <div className="relative flex items-center gap-5 px-3">
         <MdChevronLeft
           onClick={sliderLeft}
@@ -43,4 +45,4 @@ function FeaturesSection() {
   );
 }
 
-export default FeaturesSection;
+export default TrandingNowSection;

@@ -2,7 +2,7 @@ import React from "react";
 
 function RoundedBorderSection() {
   return (
-    <div className="relative w-full h-[30vh] overflow-hidden flex items-center justify-center mt-10">
+    <div className="relative w-full h-[30vh] overflow-hidden flex items-center justify-center mt-10" >
       <div
         className="absolute w-[130%] h-[120px] left-[-15%] bottom-0 rounded-tl-[50%_100%] rounded-tr-[50%_100%] p-1"
         style={{
@@ -14,7 +14,7 @@ function RoundedBorderSection() {
           rgba(184, 40, 105, 1),
           rgba(33, 13, 22, 1) 84%
           )`,
-          clipPath: "inset(0 0 6% 0 round 50% 50% 0 0)",
+          clipPath: "inset(0 0 7% 0 round 50% 50% 0 0)",
         }}
       >
         <div

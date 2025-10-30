@@ -54,6 +54,8 @@ function HeroSection() {
                 <FaChevronRight size={18} />
               </button>
             </div>
+          </div>
+          <div className="absolute inset-0 mt-[88vh]">
             <RoundedBorderSection />
           </div>
         </div>

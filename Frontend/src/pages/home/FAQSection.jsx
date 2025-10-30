@@ -12,7 +12,7 @@ function FAQSection() {
 
   return (
     <div className="w-full py-5 px-27 flex flex-col gap-3">
-      <h2 className="text-2xl font-bold">Frequently Asked Questions</h2>
+      <h2 className="text-2xl text-white font-bold">Frequently Asked Questions</h2>
       <div className="relative flex flex-col items-center gap-5 w-full">
         {data.map((dataItem) => (
           <div
