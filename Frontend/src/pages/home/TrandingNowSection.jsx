@@ -33,50 +33,61 @@ function TrandingNowSection() {
   }, []);
 
   return (
-    <div className="relative w-full h-[50vh] px-6 z-20 -mt-10">
-      <h3 className="pl-4 py-3 text-2xl font-semibold text-white">
+    <div className="relative w-full h-[50vh] px-6 z-20 -mt-7">
+      <h3 className="pl-4 ml-20 f py-3 text-2xl font-semibold text-white">
         Trending now
       </h3>
 
       <div className="relative flex justify-center items-center px-3">
         {/* Left Arrow */}
-        {showLeft && (
+        <div
+          className={`absolute left-30 z-10 text-white/70 hover:text-white bg-black h-[285px] w-[90px] cursor-pointer flex justify-center items-center transition-all duration-100 ease-in-out ${
+            showLeft
+              ? "opacity-100 pointer-events-auto"
+              : "opacity-0 pointer-events-none"
+          }`}
+        >
           <div
             onClick={sliderLeft}
-            className="absolute left-30 z-10 text-white/70 hover:text-white bg-black/40 hover:bg-black/60 h-[120px] w-[50px] cursor-pointer flex justify-center items-center rounded-lg transition"
+            className="flex items-center h-[120px] w-[30px] bg-neutral-800 hover:bg-neutral-900 rounded-lg"
           >
             <MdChevronLeft size={35} />
           </div>
-        )}
+        </div>
 
         {/* Slider */}
         <div
           ref={sliderRef}
           id="slider"
-          className="w-[80%] h-full overflow-x-scroll overflow-y-hidden scroll-smooth whitespace-nowrap [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"
+          className="w-[85%] h-full overflow-x-scroll overflow-y-hidden scroll-smooth whitespace-nowrap [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"
         >
           {TRENDING_NOW_DATA.map((item, index) => (
-            <img
-              key={index}
-              className="w-[220px] inline-block p-4 hover:scale-105 ease-in-out duration-300 cursor-pointer"
-              src={item.img}
-              alt={item.alt}
-            />
+            <div className="inline-block w-[190px] ml-7 rounded-lg overflow-hidden hover:scale-105 ease-in-out duration-300 cursor-pointer">
+              <img
+                key={index}
+                className="w-full"
+                src={item.img}
+                alt={item.alt}
+              />
+            </div>
           ))}
         </div>
 
         {/* Right Arrow */}
-        {showRight && (
+        <div
+          className={`absolute right-30 z-10 text-white/70 hover:text-white bg-black h-[300px] w-[70px] cursor-pointer flex justify-center items-center transition-all duration-500 ${
+            showRight
+              ? "opacity-100 pointer-events-auto"
+              : "opacity-0 pointer-events-auto"
+          }`}
+        >
           <div
             onClick={sliderRight}
-            className="absolute right-30 z-10 text-white/70 hover:text-white bg-black cursor-pointer flex justify-center items-center rounded-lg transition"
+            className="flex items-center h-[120px] w-[30px] bg-neutral-800 hover:bg-neutral-900 rounded-lg"
           >
-            <MdChevronRight
-              size={35}
-              className="bg-neutral-600 hover:bg-neutral-800 h-[120px] z-20"
-            />
+            <MdChevronRight size={35} />
           </div>
-        )}
+        </div>
       </div>
     </div>
   );
