@@ -15,7 +15,7 @@ function FAQSection() {
       <h3 className="pl-4 py-3 text-2xl text-white font-semibold mb-1">
         Frequently Asked Questions
       </h3>
-      <div className="relative flex flex-col items-center gap-5 w-full">
+      <div className="relative flex flex-col items-center gap-2 w-full">
         {data.map((dataItem) => (
           <div
             key={dataItem.id}
