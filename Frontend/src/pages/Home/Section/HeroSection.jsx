@@ -29,7 +29,7 @@ function HeroSection() {
               </button>
             </div>
           </div>
-          <div className="absolute inset-0 flex items-center flex-col text-white gap-2 mt-[270px]">
+          <div className="absolute inset-0 flex items-center flex-col text-white gap-2 mt-[250px]">
             <h1 className="text-[50px] font-extrabold text-center w-[40%] flex flex-col tracking-wide">
               Unlimited movies, <span>shows and more</span>
             </h1>
@@ -45,7 +45,7 @@ function HeroSection() {
             <div className="flex gap-3">
               <input
                 placeholder="Email address"
-                className="border py-4 pl-5 pr-40 rounded-sm"
+                className="border border-white/50 text-white w-[25vw] py-4 pl-3 rounded-sm font-semibold tracking-wider bg-transparent outline-none focus:ring-1 focus:ring-white focus:ring-offset-2 focus:ring-offset-black focus:border-white transition-all duration-200"
               />
               <button className="flex items-center justify-center gap-3 bg-red-600 hover:bg-red-700 rounded-md px-6 cursor-pointer">
                 <span className="text-[23px] font-bold tracking-wider">
