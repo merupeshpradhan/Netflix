@@ -5,7 +5,7 @@ import { CiFaceSmile } from "react-icons/ci";
 
 function MoreReasonsSection() {
   return (
-    <div className="w-full h-[70vh] px-27 mt-20">
+    <div className="w-full h-[60vh] px-27 mt-20">
       <h3 className="pl-4 py-3 text-2xl text-white font-semibold mb-1">
         More reasons to join
       </h3>
@@ -47,8 +47,7 @@ function MoreReasonsSection() {
             <VscTelescope size={40} className="text-red-400" />
           </div>
         </div>
-               <div className="w-[80vw] bg-linear-330 from-purple-950 to-cyan-900 px-3 py-4 rounded-lg flex flex-col justify-between">
-
+        <div className="w-[80vw] bg-linear-330 from-purple-950 to-cyan-900 px-3 py-4 rounded-lg flex flex-col justify-between">
           <div className="flex flex-col gap-3">
             <h2 className="text-white text-2xl font-bold">
               Create profiles for kids
