@@ -34,7 +34,7 @@ function TrandingNowSection() {
 
   return (
     <div className="relative w-full h-[50vh] px-6 z-20 -mt-7">
-      <h3 className="pl-4 ml-20 f py-3 text-2xl font-semibold text-white">
+      <h3 className="pl-13 ml-20 f py-3 text-2xl font-semibold text-white mb-3">
         Trending now
       </h3>
 
