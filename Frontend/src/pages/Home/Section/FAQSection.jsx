@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { data } from "../../utils/FAQSectionData";
+import { data } from "../../../utils/FAQSectionData";
 import { MdClear } from "react-icons/md";
 import { GoPlus } from "react-icons/go";
 

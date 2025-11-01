@@ -5,11 +5,13 @@ import { CiFaceSmile } from "react-icons/ci";
 
 function MoreReasonsSection() {
   return (
-    <div className="w-full h-[50vh] px-27">
-      <h3 className="pl-4 py-3 text-2xl text-white font-semibold">More reasons to join</h3>
+    <div className="w-full h-[70vh] px-27">
+      <h3 className="pl-4 py-3 text-2xl text-white font-semibold">
+        More reasons to join
+      </h3>
       <div className="more-resons-all-table flex gap-5 px-3">
-        <div className="w-full bg-rose-900/65 px-3 py-4 rounded-lg flex flex-col justify-between">
-          <div className="w-[15vw] flex flex-col gap-3">
+        <div className="w-full bg-linear-300 from-blue-950 to-cyan-900 px-3 py-4 rounded-lg flex flex-col justify-between">
+          <div className="flex flex-col gap-3">
             <h2 className="text-white text-2xl font-bold">Enjoy on your TV</h2>
             <p className="text-l text-neutral-300">
               Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
@@ -20,7 +22,7 @@ function MoreReasonsSection() {
             <FaTv size={40} className="text-white" />
           </div>
         </div>
-        <div className="w-full bg-rose-900/65 px-3 py-4  rounded-lg flex flex-col justify-between">
+        <div className="w-full bg-linear-to-tr from-cyan-900 to-amber-900 px-3 py-4  rounded-lg flex flex-col justify-between">
           <div className="flex flex-col gap-3">
             <h2 className="text-white text-2xl font-bold">
               Download your shows to watch offline
@@ -33,7 +35,7 @@ function MoreReasonsSection() {
             <LuArrowDown size={40} className="text-white" />
           </div>
         </div>
-        <div className="w-full bg-rose-900/65 px-3 py-4  rounded-lg flex flex-col justify-between">
+        <div className="w-full bg-linear-to-tr from-cyan-900 to-amber-900 px-3 py-4  rounded-lg flex flex-col justify-between">
           <div className="flex flex-col gap-3">
             <h2 className="text-white text-2xl font-bold">Watch everywhere</h2>
             <p className="text-lg text-neutral-300">
@@ -42,10 +44,10 @@ function MoreReasonsSection() {
             </p>
           </div>
           <div className="self-end">
-            <VscTelescope size={40} className="text-white" />
+            <VscTelescope size={40} className="text-black" />
           </div>
         </div>
-        <div className="w-full bg-rose-900/65 px-3 py-4  rounded-lg flex flex-col justify-between">
+        <div className="w-full bg-linear-to-tr from-cyan-900 to-amber-900 px-3 py-4  rounded-lg flex flex-col justify-between">
           <div className="flex flex-col gap-3">
             <h2 className="text-white text-2xl font-bold">
               Create profiles for kids

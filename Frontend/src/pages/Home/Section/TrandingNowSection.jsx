@@ -1,6 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
-import { TRENDING_NOW_DATA } from "../../utils/TrendingNowData";
+import { TRENDING_NOW_DATA } from "../../../utils/TrendingNowData";
 
 function TrandingNowSection() {
   const sliderRef = useRef(null);
