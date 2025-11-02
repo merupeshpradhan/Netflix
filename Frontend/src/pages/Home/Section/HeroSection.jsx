@@ -23,7 +23,7 @@ function HeroSection() {
               />
             </div>
             <div className="flex">
-              {/* <LanguageSelector /> */}
+              <LanguageSelector />
               <button className="w-[95px] h-[35px] rounded-sm bg-red-700 text-white cursor-pointer">
                 Sign In
               </button>
