@@ -8,7 +8,7 @@ function HeroSection() {
     <div>
       <div className="first">
         <div
-          className="relative w-full h-[80vh] lg:h-[120vh] bg-cover bg-center flex justify-between"
+          className="relative w-full h-[76vh] lg:h-[120vh] bg-cover bg-center flex justify-between"
           style={{
             backgroundImage: "url('/hero-bg.jpg')",
           }}
