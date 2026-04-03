@@ -47,8 +47,8 @@ function HeroSection() {
                 placeholder="Email address"
                 className="border border-white/50 text-white w-[90%] md:w-[60%] lg:w-[25vw] py-3 md:py-4 pl-3 rounded-sm font-semibold tracking-wider bg-transparent outline-none focus:ring-1 focus:ring-white focus:ring-offset-2 focus:ring-offset-black focus:border-white transition-all duration-200"
               />
-              <button className="flex items-center justify-center md:gap-2 bg-blue-600 hover:bg-blue-700 rounded-md px-4 md:px-6 py-2 md:py-3 cursor-pointer w-[150px] md:w-auto h-[48px] md:h-[58px]">
-                <span className="md:text-[20px] font-bold tracking-wider">
+              <button className="flex items-center justify-center md:gap-2 bg-blue-600 hover:bg-blue-700 rounded-md px-2 md:px-6 md:py-3 cursor-pointer w-[150px] md:w-auto h-[38px] md:h-[58px]">
+                <span className="text-[10px] md:text-[20px] font-bold tracking-wider">
                   Start Now Explore
                 </span>
                 <FaChevronRight className="text-[15px] md:text-[18px]" />
