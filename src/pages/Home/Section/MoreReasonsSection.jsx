@@ -14,8 +14,7 @@ function MoreReasonsSection() {
           <div className="flex flex-col gap-3 mb-10 md:mb-30">
             <h2 className="text-white text-xl md:text-2xl font-bold">Enjoy on your TV</h2>
             <p className="font-medium md:font-semibold text-neutral-300 text-sm md:text-base">
-              Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
-              Blu-ray players and more.
+              Experience responsive design across different devices.
             </p>
           </div>
           <div className="self-end">
